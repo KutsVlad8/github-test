@@ -1,6 +1,14 @@
-.post {
-  color: green;
+.text > span {
+  text-decoration: line-through;
 }
-.post-link {
-  color: inherit;
+
+.link {
+  text-decoration: none;
+}
+.site-nav .link {
+  text-transform: uppercase;
+}
+
+.post-text {
+  text-indent: 100px;
 }
