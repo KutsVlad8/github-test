@@ -6,9 +6,17 @@
   text-decoration: none;
 }
 .site-nav .link {
-  text-transform: uppercase;
+  text-transform: ;
 }
 
 .post-text {
-  text-indent: 100px;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  color: #2a2a2a;
+  font-size: 16px;
+}
+
+.post-text:first-letter {
+  font-family: 'Tahoma', serif;
+  font-size: 32px;
+  color: #f44336;
 }
