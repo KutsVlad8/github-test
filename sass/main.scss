@@ -1,8 +1,12 @@
-body {
-  color: teal;
-  background-color: black;
+@import './utils/variables';
+
+article {
+  box-shadow: inset;
+  &:hover {
+    color: $primary-link-color;
+  }
 }
 
-section {
-  color: red;
+h2 {
+  font-family: 'Courier New', Courier, monospace;
 }
